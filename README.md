@@ -12,7 +12,7 @@ O projeto tem como objetivo conscientizar sobre a importância do agronegócio s
 
 ---
 
-## Tecnologias Utilizadas
+## Tecnologia Utilizadas
 
 - HTML5
 - CSS3
