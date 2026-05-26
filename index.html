@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrinho 2026</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header>
+        <h1>Agro forte, futuro sustentável</h1>
+        <p>Equilíbrio entre produção e meio ambiente</p>
+
+        <button id="temaBtn">🌙 Alternar Tema</button>
+    </header>
+
+    <!-- Menu -->
+    <nav>
+        <ul>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#tecnologia">Tecnologia</a></li>
+            <li><a href="#sustentabilidade">Sustentabilidade</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+
+    <!-- Banner -->
+    <section class="banner">
+        <div class="banner-texto">
+            <h2>O futuro do campo depende das nossas ações</h2>
+            <p>
+                A agricultura sustentável une tecnologia, produção e preservação ambiental.
+            </p>
+
+            <button id="saibaMais">Saiba Mais</button>
+        </div>
+    </section>
+
+    <!-- Sobre -->
+    <main>
+
+        <section id="sobre" class="card">
+            <h2>🌱 Sobre o Projeto</h2>
+
+            <p>
+                Este projeto mostra como o agronegócio pode crescer sem prejudicar o meio ambiente.
+                O uso de tecnologias sustentáveis ajuda na preservação da água, do solo e da biodiversidade.
+            </p>
+        </section>
+
+        <!-- Tecnologia -->
+        <section id="tecnologia" class="card">
+            <h2>🚜 Tecnologia no Campo</h2>
+
+            <div class="grid">
+
+                <article>
+                    <h3>Drones</h3>
+                    <p>
+                        Monitoram plantações e reduzem desperdícios.
+                    </p>
+                </article>
+
+                <article>
+                    <h3>Irrigação Inteligente</h3>
+                    <p>
+                        Economiza água e melhora a produtividade.
+                    </p>
+                </article>
+
+                <article>
+                    <h3>Energia Limpa</h3>
+                    <p>
+                        Uso de energia solar nas propriedades rurais.
+                    </p>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- Sustentabilidade -->
+        <section id="sustentabilidade" class="card">
+            <h2>🌎 Sustentabilidade</h2>
+
+            <ul>
+                <li>Preservação das nascentes</li>
+                <li>Redução de queimadas</li>
+                <li>Uso consciente de recursos naturais</li>
+                <li>Reciclagem de resíduos agrícolas</li>
+            </ul>
+
+            <div class="contador">
+                <h3>Árvores preservadas:</h3>
+                <span id="contadorNumero">0</span>
+            </div>
+        </section>
+
+        <!-- Formulário -->
+        <section id="contato" class="card">
+            <h2>📩 Contato</h2>
+
+            <form id="formulario">
+
+                <input
+                    type="text"
+                    id="nome"
+                    placeholder="Digite seu nome"
+                    required
+                >
+
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="Digite seu email"
+                    required
+                >
+
+                <textarea
+                    id="mensagem"
+                    placeholder="Digite sua mensagem"
+                    required
+                ></textarea>
+
+                <button type="submit">Enviar</button>
+
+            </form>
+
+            <p id="mensagemSucesso"></p>
+
+        </section>
+
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>
+            Projeto Agrinho 2026 © Desenvolvido com HTML, CSS e JavaScript
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
